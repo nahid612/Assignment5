@@ -29,30 +29,30 @@
 
 
 // ----------------------------
-const buttons = document.querySelectorAll('button');
-// for(let i = 0; i < buttons.length; i++){
-    // buttons[i].disabled = i < 36;
+// const buttons = document.querySelectorAll('button');
+// // for(let i = 0; i < buttons.length; i++){
+//     // buttons[i].disabled = i < 36;
+// // }
+// let totalResult = 0;
+
+// function calculateTicketFee(event){
+//     const result = event * 550;
+//     console.log(result);
+
+//     const p = document.createElement('p');
+//     p.textContent = `Result for Button ${event}: ${result}`;
+
+//     document.body.appendChild(p);
+//      totalResult += result;
+
+//      updateTotalResult();
+
 // }
-let totalResult = 0;
 
-function calculateTicketFee(event){
-    const result = event * 550;
-    console.log(result);
-
-    const p = document.createElement('p');
-    p.textContent = `Result for Button ${event}: ${result}`;
-
-    document.body.appendChild(p);
-     totalResult += result;
-
-     updateTotalResult();
-
-}
-
-function updateTotalResult(){
-    const totalP = document.getElementById('totalResult');
-    totalP.textContent = `Total: ${totalResult}`;
-}
+// function updateTotalResult(){
+//     const totalP = document.getElementById('totalResult');
+//     totalP.textContent = `Total: ${totalResult}`;
+// }
 
 const allBtn = document.getElementsByClassName("allbtn");
 let count = 0;

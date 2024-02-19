@@ -357,10 +357,29 @@
           <h2 class="font-semibold text-base my-3">Passenger Name*</h2>
           <input class="border-2 p-3 w-full rounded-xl" type="text" name="" id="" placeholder="Enter Your Name">
           <h2 class="font-semibold text-base my-3">Phone Number*</h2>
-          <input class="border-2 p-3 w-full rounded-xl" type="text" name="" id="" placeholder="Enter Your Phone Number">
+          <input class="border-2 p-3 w-full rounded-xl" type="number" name="" id="" placeholder="Enter Your Phone Number">
           <h2 class="font-semibold text-base my-3">Email ID</h2>
-          <input class="border-2 p-3 w-full rounded-xl" type="text" name="" id="" placeholder="Enter Your Email">
-          <button class="btn w-full bg-[#1DD100] text-white my-6">Next</button>
+          <input class="border-2 p-3 w-full rounded-xl" type="email" value="Submit" id="" placeholder="Enter Your Email">
+          
+          <nav>
+            <label for="my_modal_6" class="btn w-full bg-[#1DD100] text-white my-6">Next</label>
+    
+            <input type="checkbox" id="my_modal_6" class="modal-toggle" />
+            <div class="modal" role="dialog">
+              <div class="modal-box">
+                <!--  -->
+                <div class="inter bg-[rgb(30, 30, 30)] p-6 grid justify-center items-center">
+                  <img class="ml-36 " src="images/success.png" alt="">
+                  <h3 class="font-bold text-center my-6">SUCCESS</h3>
+                  <h5 class="font-medium text-center">Thank you for Booking Our Bus Seats. We are working hard to find the best service and deals for you. </h5>
+                  <h6 class="font-light text-center mt-1">Shortly you will find a confirmation in your email.</h6>
+                  
+                  <button> <label for="my_modal_6" class="btn btn-success rounded-3xl px-7 py-3 mt-6">Continue</label</button>
+                </div>
+                
+              </div>
+            </div>
+          </nav>
 
           <div class="flex justify-around">
             <p class="border-b-2 text-gray-500">Terms and Conditions</p>
@@ -370,9 +389,9 @@
         </section>
       </div>
     </section>
-    <footer>
-
-    </footer>
+    <section>
+      
+    </section>
     <script src="script/tailwind.config.js"></script>
     <script src="script/append.js"></script>
 
